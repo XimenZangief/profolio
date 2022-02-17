@@ -1,0 +1,29 @@
+#left
+{
+	display:inline-block;
+	width:25%;
+	padding:2%;
+	overflow: auto;
+	height:768px;
+	vertical-align:top;
+	border:#000 1px solid;
+}
+#left a
+{
+	display:block;
+	padding:20px 5px 20px 5px;
+	text-decoration:none;
+	background:#F4C591;
+	margin:10px auto 10px auto;
+	color:#65350A;
+}
+#right
+{
+	display:inline-block;
+	width:65%;
+	padding:2%;
+	/* 題目要求不可超過版面 */
+	overflow: auto;
+	height:768px;
+	border:#000 1px solid;
+}

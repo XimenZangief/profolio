@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Orbitron:wght@500&family=Press+Start+2P&family=Shadows+Into+Light&display=swap");
+body {
+  padding-top: 3rem;
+  background: #eee;
+}
+
+header {
+  font-family: 'Shadows Into Light', cursive;
+  padding: 23vh 0;
+  background: -webkit-gradient(linear, left top, right top, from(#EECDA3), to(#EF629F));
+  background: linear-gradient(to right, #EECDA3, #EF629F);
+}
+
+header .navbar-nav {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.about {
+  padding: 10vh 0;
+  background: #222;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .about {
+    padding: 20vh 0;
+  }
+}
+
+.portflio {
+  padding: 10vh 0;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+@media (min-width: 768px) {
+  .portflio {
+    padding: 20vh 0;
+  }
+}
+
+.portflio .card-header {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.featured {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 10;
+  background: #222;
+}
+
+footer {
+  padding: 3vh 0;
+  text-align: center;
+  background: black;
+  color: white;
+  opacity: 0.8;
+}
+
+.hori-timeline .events {
+  padding: 10vh 0;
+  border-top: 3px solid #e9ecef;
+}
+
+@media (min-width: 768px) {
+  .hori-timeline .events {
+    padding: 20vh 0;
+  }
+}
+
+.hori-timeline .events .event-list {
+  padding: 10vh 0;
+  display: block;
+  position: relative;
+  text-align: center;
+  padding-top: 70px;
+  margin-right: 0;
+}
+
+@media (min-width: 768px) {
+  .hori-timeline .events .event-list {
+    padding: 20vh 0;
+  }
+}
+
+.hori-timeline .events .event-list .event-date {
+  position: absolute;
+  top: 38px;
+  left: 0;
+  right: 0;
+  width: 75px;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+.hori-timeline .events .event-list:before {
+  content: "";
+  position: absolute;
+  height: 100px;
+  border-right: 2px dashed #dee2e6;
+  top: -10vh;
+}
+
+@media (min-width: 1140px) {
+  .hori-timeline .events .event-list {
+    display: inline-block;
+    width: 24%;
+    padding-top: 45px;
+  }
+  .hori-timeline .events .event-list .event-date {
+    top: -18vh;
+  }
+}
+
+.bg-soft-primary {
+  background-color: rgba(64, 144, 203, 0.3) !important;
+}
+
+.bg-soft-info {
+  background-color: rgba(23, 162, 184, 0.3) !important;
+}
+
+.bg-soft-danger {
+  background-color: rgba(231, 76, 94, 0.3) !important;
+}
+
+.bg-soft-warning {
+  background-color: rgba(249, 213, 112, 0.3) !important;
+}
+/*# sourceMappingURL=custom.css.map */
