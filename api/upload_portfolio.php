@@ -18,8 +18,7 @@ if (!empty($_FILES['name']['tmp_name'])) {
     $Portfolio->save(['name' => $filename, 
                     'title' => $_POST['title'],
                     'titleEng' => $_POST['titleEng'],
-                    'href'=> $_POST['href'],
-                    'btn'=> $_POST['btn']]);
+                    'href'=> $_POST['href'],]);
 }
 
 to("../back/index.php?do=portfolio");

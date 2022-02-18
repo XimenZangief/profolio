@@ -3,19 +3,19 @@
 <table class="table">
     <form action="../api/upload_portfolio.php" method="post" enctype="multipart/form-data">
         <div class='custom-file m-auto d-block mb-2'>
-            <label for="upload" class='custom-file-label'>選擇圖片</label>
+            <label for="upload" class='custom-file-label '>選擇圖片</label>
             <input class="custom-file-input" type="file" name="name" id="upload">
         </div>
         <div class="mx-auto m-2 input-group mb-2">
-            <label class='input-group-prepend input-group-text' for='title'>標題：</label>
-            <input class='form-control' type="text" name="title" id="title">
+            <label class='input-group-prepend input-group-text bg-info text-white' for='title'>標題：</label>
+            <input class='form-control ' type="text" name="title" id="title">
         </div>
         <div class="mx-auto m-2 input-group mb-2">
-            <label class='input-group-prepend input-group-text' for='titleEng'>英文標題：</label>
+            <label class='input-group-prepend input-group-text bg-info text-white' for='titleEng'>英文標題：</label>
             <input class='form-control' type="text" name="titleEng" id="titleEng">
         </div>
         <div class="mx-auto m-2 input-group mb-2">
-            <label class='input-group-prepend input-group-text' for='href'>網址：</label>
+            <label class='input-group-prepend input-group-text bg-info text-white' for='href'>網址：</label>
             <input class='form-control' type="text" name="href" id="href">
         </div>
         <div>
@@ -23,6 +23,7 @@
         </div>
     </form>
 </table>
+<hr>
 <table class="table table-striped table-hover text-center align-middle">
     <tr>
         <td>圖片</td>

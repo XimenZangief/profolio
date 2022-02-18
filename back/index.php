@@ -28,23 +28,21 @@ include_once "../base.php";
 		</div>
 		<div id="left">
 			<div style="min-height:400px;">
-				<a href="?do=title">大字報管理</a>
+				<a href="?do=title">大字報/頁尾管理</a>
 				<a href="?do=marquee">輪播圖管理</a>
 				<a href="?do=about">ABOUT管理</a>
 				<a href="?do=portfolio">作品集管理</a>
-				<a href="?do=footer">頁尾管理</a>
+				<a href="?do=block">顯示區塊管理</a>
 				<a href="?do=logout" style="color:#f00;">登出</a>
 			</div>
 		</div>
 		<div id="right">
 			<?php
-			// 題目要求後台登入必須預設進入權限管理頁，所以直接給admin.php
 			$do = $_GET['do'] ?? 'title';
 			$file =  $do . ".php";
 			if (file_exists($file)) {
 				include $file;
 			} else {
-				// echo "檔案不存在";
 				include "title.php";
 			}
 			?>

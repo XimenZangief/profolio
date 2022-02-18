@@ -149,7 +149,6 @@ function mb_strrev($str)
 }
 
 $Users = new DB("users");
-$Bottom = new DB("bottom");
 $Title = new DB("title");
 $Marquee = new DB("marquee");
 $About = new DB("about");

@@ -2,7 +2,6 @@
 
 $id=$_GET['id'];
 $editIntro=$_GET['intro'];
-
 if (isset($id)) {
     if (isset($editIntro)) {
         $Marquee->save(['intro' => $editIntro, 'id' => $id]);
