@@ -1,12 +1,12 @@
 <?php
 date_default_timezone_set("Asia/Taipei");
 session_start();
-
+include_once "config.php";
 class DB
 {
-    protected $dsn = "mysql:host=localhost;charset=utf8;dbname=s1100422";
-    protected $user = "s1100422";
-    protected $pw = "s1100422";
+    protected $dsn;
+    protected $user;
+    protected $pw;
     protected $pdo;
     public $table;
 
