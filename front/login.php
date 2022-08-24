@@ -17,6 +17,11 @@
                 <button type="button" class="btn btn-success" onclick="login()">登入吧</button>
                 <button type="reset" class="btn btn-danger" data-dismiss="modal">還是算了</button>
             </div>
+            <?php
+            if($_SESSION['loginMsg']){
+                echo $_SESSION['loginMsg'];
+            }
+            ?>
         </div>
     </div>
 </div>

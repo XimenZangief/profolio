@@ -1,5 +1,12 @@
 <?php
 include_once "../base.php";
+
+// 檢查是否登入
+if(!$_SESSION['currentLogin'])
+{
+	header("location:../index.php");
+	exit();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
