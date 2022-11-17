@@ -62,6 +62,7 @@
                 intro
             }, (res) => {
                 console.log(id, intro);
+                console.log(res);
                 // location.reload();
                 $(dom).parent().prev().prev().text(intro);
             })
